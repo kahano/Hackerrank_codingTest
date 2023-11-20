@@ -1,12 +1,7 @@
- import java.io.*;
 
 import java.util.*;
 
-import java.text.*;
 
-import java.math.*;
-
-import java.util.regex.*;
 
 
  class LionCompetition{
@@ -52,10 +47,10 @@ import java.util.regex.*;
                     }
 
             }
-            else{
-                    presented_lions.add(height);
+           
+            presented_lions.add(height);
                    
-            }
+            
                      
              
 
@@ -76,10 +71,10 @@ import java.util.regex.*;
                         }
                         
             }
-            else{
-                presented_lions.remove(height);
+           
+            presented_lions.remove(height);
              
-            }
+            
 
 
 
